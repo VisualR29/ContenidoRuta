@@ -22,7 +22,7 @@
     background-color: #007bff00;
     /* Cambia el color de fondo según tus preferencias */
     color: rgba(255, 255, 255, 0);
-    border: 1px solid red;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
 }
