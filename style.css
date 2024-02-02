@@ -1,0 +1,48 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+}
+
+.contenedor-imagen {
+    position: relative;
+    display: inline-block;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+.boton-superpuesto {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 1.5vw 5vw;
+    background-color: #007bff00;
+    /* Cambia el color de fondo según tus preferencias */
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.analisis {
+    top: 84%;
+    left: 19%;
+}
+
+.normativa {
+    top: 84%;
+    left: 49%;
+}
+
+.sistemas {
+    top: 84%;
+    left: 82%;
+}
+
+.regreso {
+    top: 93%;
+    left: 50%;
+}
